@@ -1,8 +1,23 @@
 
 function renderNametags(nametags) {
+
+    let namesHtml = nametags.map(function(nametag) {
+
+           return `
+            <div class="nametag">
+                <div class="nametag-header">Hello, my name is</div>
+                <div class="nametag-body">
+                <h3>${nametag}</h3>
+                </div>
+            </div>
+            `;
+            
+      
+    })
+
     return `
         <div class="text-center mt-5">
-            <code>${JSON.stringify(nametags)}</code>
+        ${namesHtml.join('')}
         </div>
     `
 }

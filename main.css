@@ -1,1 +1,36 @@
 /* Type whatever CSS you need here! */
+
+.nametag-header {
+    background-color: blue;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-weight: bold;
+      
+}
+
+.nametag-body {
+    padding-top: 15px;
+   
+
+}
+
+.present {
+    background-color: chartreuse;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+   
+}
+
+.absent {
+    background-color: crimson;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
